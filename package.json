@@ -1,6 +1,6 @@
 {
   "name": "tui-image-editor",
-  "author": "ElenaFreit",
+  "author": "NHN FE Development Lab <dl_javascript@nhn.com>",
   "version": "3.10.0",
   "license": "MIT",
   "repository": {
@@ -82,7 +82,8 @@
     "serve": "webpack-dev-server",
     "doc:dev": "tuidoc --dev",
     "doc": "tuidoc",
-    "tslint": "tslint index.d.ts"
+    "tslint": "tslint index.d.ts",
+    "postinstall": "cd ./node_modules/tui-image-editor && npm install && npm run build"
   },
   "dependencies": {
     "core-js-pure": "^3.6.4",
