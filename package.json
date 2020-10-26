@@ -82,8 +82,7 @@
     "serve": "webpack-dev-server",
     "doc:dev": "tuidoc --dev",
     "doc": "tuidoc",
-    "tslint": "tslint index.d.ts",
-    "postinstall": "npm run build"
+    "tslint": "tslint index.d.ts"
   },
   "dependencies": {
     "core-js-pure": "^3.6.4",
